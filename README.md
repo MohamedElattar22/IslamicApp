@@ -8,7 +8,7 @@ Islamy is a daily use application for every muslim , including Holy Quraan
 
 ### Tools Used
 
-* For this app i used : MVVM Architicture , Room DataBase , Recycler views , Material 3 Design Components
+* For this app i used :Recycler views , Material 3 Design Components
 * Languages : Kotlin & XML markup language
 
 
