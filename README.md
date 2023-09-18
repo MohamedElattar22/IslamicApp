@@ -6,20 +6,15 @@ Islamy is a daily use application for every muslim , including Holy Quraan
 
 ## Getting Started
 
-### Dependencies
+### Tools Used
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* For this app i used : MVVM Architicture , Room DataBase , Recycler views , Material 3 Design Components
+* Languages : Kotlin & XML markup language
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
 Just Download From link
 ```
@@ -29,14 +24,9 @@ Just Download From link
 
 Mohamed Elattar
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
