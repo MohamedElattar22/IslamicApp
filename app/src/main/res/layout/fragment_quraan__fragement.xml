@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragements.Quraan_Fragement">
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+<!--       <TextView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="Quraan"-->
+<!--           android:textSize="40sp"-->
+<!--           app:layout_constraintBottom_toBottomOf="parent"-->
+<!--           app:layout_constraintEnd_toEndOf="parent"-->
+<!--           app:layout_constraintStart_toStartOf="parent"-->
+<!--           app:layout_constraintTop_toTopOf="parent">-->
+
+<!--       </TextView>-->
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardView"
+           android:layout_width="match_parent"
+           android:layout_height="160dp"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="10dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scaleType="centerCrop"
+               android:src="@drawable/gradient">
+           </ImageView>
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+
+               <TextView
+                    android:drawableStart="@drawable/baseline_book_24"
+                   android:drawablePadding="5dp"
+                   android:id="@+id/textView"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="30dp"
+                   android:fontFamily="@font/fontreg"
+                   android:text="Last Read"
+                   android:textColor="@color/white"
+                   android:textSize="20sp"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent">
+
+               </TextView>
+
+               <TextView
+                   android:id="@+id/recentSura"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="@font/quraanfont"
+                   android:text="سُورَة الفَاتِحة"
+                   android:textColor="@color/white"
+
+                   android:textSize="34sp"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintStart_toStartOf="@+id/textView">
+
+               </TextView>
+
+               <ImageView
+                   android:layout_width="180dp"
+                   android:layout_height="0dp"
+                   android:padding="15dp"
+                   android:src="@drawable/mous7af"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toEndOf="@+id/textView2"
+                   app:layout_constraintTop_toTopOf="parent">
+
+               </ImageView>
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+       </androidx.cardview.widget.CardView>
+
+<!--       <com.google.android.material.card.MaterialCardView-->
+<!--           android:id="@+id/cardView2"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="80dp"-->
+<!--           android:layout_margin="20dp"-->
+<!--           android:outlineProvider="bounds"-->
+<!--           app:strokeColor="@color/M.Green"-->
+<!--           app:cardElevation="0dp"-->
+<!--           app:cardCornerRadius="10dp"-->
+<!--           app:strokeWidth="1dp"-->
+<!--           app:layout_constraintEnd_toEndOf="parent"-->
+<!--           app:layout_constraintStart_toStartOf="parent"-->
+<!--           app:layout_constraintTop_toBottomOf="@+id/cardView">-->
+<!--           <TextView-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:text="القرآن الكريم"-->
+<!--               android:textColor="@color/black"-->
+<!--               android:fontFamily="@font/quraanfont"-->
+<!--               android:layout_gravity="center_horizontal"-->
+<!--               android:padding="5dp"-->
+<!--               android:textSize="25sp"-->
+<!--               android:layout_height="wrap_content">-->
+
+<!--           </TextView>-->
+
+<!--       </com.google.android.material.card.MaterialCardView>-->
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/sorahRv"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_margin="20dp"
+           android:orientation="vertical"
+           app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+       </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

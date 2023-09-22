@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     val Quraan_Fragement = Quraan_Fragement()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
         supportFragmentManager.beginTransaction()
             .replace(R.id.Main_Fragement, Quraan_Fragement)
             .commit()
