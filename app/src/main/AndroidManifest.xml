@@ -15,6 +15,13 @@
         <activity android:name=".Activities.MainActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".Activities.suraDetailsActivity"
+            android:exported="true"
+            >
+
+
+        </activity>
 
 
         <activity

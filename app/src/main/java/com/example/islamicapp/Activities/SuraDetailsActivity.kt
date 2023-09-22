@@ -44,7 +44,7 @@ class suraDetailsActivity : AppCompatActivity() {
         val fileContent = assets.open("$suraPos.txt").bufferedReader().use {
             it.readText()
         }
-      val data =  fileContent.split("\n")
+      val data =  fileContent.split("/n")
         Adapter.updateData(data)
     }
 }
