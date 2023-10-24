@@ -1,15 +1,13 @@
-package com.example.islamicapp.Activities
+package com.example.islamicapp.activities
 
-import android.media.AudioAttributes
-import android.media.MediaPlayer
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.islamicapp.Fragements.Hadeeth_Fragement
 import com.example.islamicapp.Fragements.Quraan_Fragement
 import com.example.islamicapp.Fragements.Seb7a_Fragement
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+import com.example.islamy_project.radio.RadioFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -33,11 +31,12 @@ class MainActivity : AppCompatActivity() {
             else if(it.itemId == R.id.Tasbeh_Frag){
                 pushFragement(Seb7a_Fragement())
             }
+            else if(it.itemId == R.id.Radio_Frag){
+                pushFragement(RadioFragment())
+            }
 
             return@setOnItemSelectedListener true
         }
-
-
 
     }
 

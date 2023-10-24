@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+
 
 class suraContentAdapter (var verseList: List<String>?=null) :
     Adapter<suraContentAdapter.suraContentViewHolder>() {

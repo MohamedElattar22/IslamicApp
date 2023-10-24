@@ -1,11 +1,12 @@
-package com.example.islamicapp.Activities
+package com.example.islamicapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

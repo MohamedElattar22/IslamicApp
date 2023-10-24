@@ -2,6 +2,7 @@ package com.example.islamicapp.Fragements
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,17 +10,19 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.example.islamicapp.Activities.suraDetailsActivity
+import com.example.islamicapp.activities.suraDetailsActivity
 import com.example.islamicapp.Adapters.QuraanAdapter
 import com.example.islamicapp.Adapters.onSurahItemClick
 import com.example.islamicapp.Data.Constants
 import com.example.islamicapp.Data.SurahData
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+
 
 class Quraan_Fragement : Fragment() {
     lateinit var rvSorah : RecyclerView
     lateinit var suraNameadApter: QuraanAdapter
     lateinit var recentSurah : TextView
+    var mMediaPlayer: MediaPlayer? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -53,6 +56,17 @@ class Quraan_Fragement : Fragment() {
             }
 
         }
+    }
+    fun playSound(id : Int) {
+        if (mMediaPlayer == null) {
+            mMediaPlayer = MediaPlayer.create(requireActivity(),id)
+//            mMediaPlayer!!.isLooping = true
+            mMediaPlayer!!.start()
+        }
+        else mMediaPlayer!!.start()
+    }
+    fun pauseSound() {
+        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
     }
 
 }

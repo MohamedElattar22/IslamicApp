@@ -117,4 +117,9 @@ object Constants {
         "الفلق",
         "الناس"
     )
+    var BASE_URL="https://mp3quran.net/api/v3/"
+    val EXTRA_SURA_POSITION="SuraPosition"
+    val EXTRA_SURA_Name="SuraName"
+    val EXTRA_HADETH_NAME="HadethName"
+    val EXTRA_HADETH_POSITION="HadethPosition"
 }

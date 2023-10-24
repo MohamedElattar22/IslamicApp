@@ -7,19 +7,15 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islamicapp.Data.Constants
 import com.example.islamicapp.Data.SurahData
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+
 
 class QuraanAdapter(private val surahList: List<SurahData>) : RecyclerView.Adapter<QuraanAdapter.ViewHolder>(){
    var onSurahItemClick : onSurahItemClick ?= null
 
-
-
-
-
     class ViewHolder (ItemView : View ) : RecyclerView.ViewHolder(ItemView){
         val surahName : TextView = ItemView.findViewById(R.id.tvSurahName)
         val surahNum : TextView = ItemView.findViewById(R.id.tvSurahNum)
-
 
     }
 

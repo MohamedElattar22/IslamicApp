@@ -3,5 +3,25 @@
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="islami">إسلامي</string>
+
+    <string name="quran">القران</string>
+    <string name="hadeth">الاحاديث</string>
+    <string name="sebha">التسبيح</string>
+    <string name="radio">الراديو</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="name_sura">اسم السورة</string>
+    <string name="aya_num">عدد الايات</string>
+    <string name="add_eltasbeh">عدد التسبيحات</string>
+    <string name="sobhan_allah">سبحان الله</string>
+    <string name="ezat_elquran_elkarem">إذاعة القرآن الكريم</string>
+    <string name="suraname">سورة البقرة</string>
+    <string name="fatha">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَنِ الرَّحِيمِ مَالِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّين</string>
+    <string name="numberofhadteh">الحد يث الأول عن أمـيـر المؤمنـين أبي حـفص عمر بن الخطاب رضي الله عنه ، قال : سمعت رسول الله صلى الله عـليه وسلم يـقـول : ( إنـما الأعـمـال بالنيات وإنـمـا لكـل امـرئ ما نـوى . فمن كـانت هجرته إلى الله ورسولـه فهجرتـه إلى الله ورسـوله ومن كانت هجرته لـدنيا يصـيبها أو امرأة ينكحها فهجرته إلى ما هاجر إليه ). رواه إمام المحد ثين أبـو عـبـد الله محمد بن إسماعـيل بن ابراهـيـم بن المغـيره بن بـرد زبه البخاري الجعـفي،[رقم:1] وابـو الحسـيـن مسلم بن الحجاج بن مـسلم القـشـيري الـنيسـابـوري [رقم :1907] رضي الله عنهما في صحيحيهما اللذين هما أصح الكتب المصنفه.</string>
+    <string name="elketma">لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير</string>
+    <string name="eslami">اسلامي</string>
+    <string name="radio_player_channel">Radio channel</string>
+    <string name="radio_player_channel_description">this channel to display radio player</string>
 
 </resources>

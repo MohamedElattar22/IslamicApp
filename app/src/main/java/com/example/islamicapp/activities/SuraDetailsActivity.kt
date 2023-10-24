@@ -1,13 +1,14 @@
-package com.example.islamicapp.Activities
+package com.example.islamicapp.activities
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Adapter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islamicapp.Adapters.suraContentAdapter
-import com.example.islamicapp.R
+import com.example.islamy_project.R
+
 
 class suraDetailsActivity : AppCompatActivity() {
     var suraName : String ?= null
@@ -40,6 +41,7 @@ class suraDetailsActivity : AppCompatActivity() {
         suraRv.adapter = Adapter
 
     }
+    @SuppressLint("SuspiciousIndentation")
     private fun readFromFileAssets(){
         val fileContent = assets.open("$suraPos.txt").bufferedReader().use {
             it.readText()

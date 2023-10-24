@@ -11,7 +11,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.example.islamicapp.Data.Seb7a_content
-import com.example.islamicapp.R
+import com.example.islamy_project.R
 
 class Seb7a_Fragement : Fragment() {
     var mMediaPlayer: MediaPlayer? = null
