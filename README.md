@@ -13,7 +13,7 @@ Islamy is a daily use application for every muslim , including Holy Quraan
 * Navigation component : one activity contains multiple fragments instead of creating multiple activites.
 * Retrofit : making HTTP connection with the rest API and convert meal json file to Kotlin/Java object.
 
-## Authors
+## Preview
 
 ![photo_2024-01-19_21-28-55](https://github.com/MohamedElattar22/Algorithm_Visual-app/assets/108879810/ef9f1771-46c2-4d1a-b45d-0c1691dee06e)
 ![photo_2024-01-19_21-28-53](https://github.com/MohamedElattar22/Algorithm_Visual-app/assets/108879810/342b5217-6304-4f24-86e4-68d4c77b6b81)
